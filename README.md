@@ -129,7 +129,7 @@ A hands-on enterprise-style security environment built for **security monitoring
 
 ### 01 — Enterprise SOC & Network Security Lab
 
-**Status: Completed ✅**
+**Status: Completed**
 
 Designed and built an enterprise-style SOC and network-security environment integrating **Splunk, Wazuh, Zeek, Suricata, pfSense, Proxmox, VLAN segmentation, port mirroring, and secure remote access**.
 
