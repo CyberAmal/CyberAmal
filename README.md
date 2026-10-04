@@ -4,7 +4,7 @@
 
 Cyber Security MSc graduate focused on **SOC operations, threat detection, incident investigation, network security, and security engineering**.
 
-I build hands-on cybersecurity projects to develop practical experience with security monitoring, SIEM, IDS/IPS, network analysis, detection engineering, and incident response.
+I build hands-on cybersecurity projects to develop practical experience with **SIEM, IDS/IPS, network security monitoring, security-event correlation, incident investigation, and defensive security controls**.
 
 ---
 
@@ -12,7 +12,7 @@ I build hands-on cybersecurity projects to develop practical experience with sec
 
 My goal is to build a career across **SOC, Cyber Security Analysis, and Security Engineering**, using practical projects to strengthen my ability to detect, investigate, and respond to security threats.
 
-My current work focuses on building realistic security environments, generating controlled security events, analyzing telemetry, developing detections, and documenting investigations using professional SOC workflows.
+My current work focuses on building realistic security environments, generating controlled security events, analyzing telemetry, validating defensive controls, and documenting investigations using structured SOC workflows.
 
 ---
 
@@ -20,31 +20,33 @@ My current work focuses on building realistic security environments, generating 
 
 ### Enterprise SOC & Network Security Lab
 
-A hands-on enterprise-style security environment built for **security monitoring, threat detection, incident investigation, and security-control validation**.
+A hands-on enterprise-style security environment built for **security monitoring, threat detection, incident investigation, network segmentation, and security-control validation**.
 
 **Technologies**
 
-`Splunk` `Wazuh` `Zeek` `Suricata` `pfSense` `Proxmox` `Sigma` `MITRE ATT&CK`
+`Splunk` `Wazuh` `Zeek` `Suricata` `pfSense` `Proxmox` `MITRE ATT&CK` `Tailscale`
 
 **Implemented**
 
 - pfSense firewall and inter-VLAN security policies
 - Network segmentation using VLANs
 - Dedicated network IDS sensor
+- SPAN/port-mirrored network monitoring
 - Zeek network security monitoring
 - Suricata IDS/IPS
+- Custom Suricata detection-rule validation
 - Splunk SIEM
-- Wazuh security monitoring
+- Wazuh host/security monitoring
 - Wazuh → Splunk alert integration
-- Custom SOC monitoring dashboards
-- Secure remote access
-- Sigma detection engineering
+- Centralized SOC monitoring dashboards
+- Secure remote access with Tailscale
 - Controlled security-event generation
 - Structured SOC investigations
+- Security-control validation
 
 **SOC Investigations**
 
-`Phishing` • `SSH Brute Force` • `Network Reconnaissance` • `Cross-VLAN Access` • `IDS/IPS Validation`
+`Phishing` • `SSH Brute Force` • `Network Reconnaissance` • `Cross-VLAN Access` • `Suricata IDS/IPS Validation`
 
 **[View Enterprise SOC & Network Security Lab](https://github.com/CyberAmal/enterprise-soc-security-lab)**
 
@@ -54,13 +56,13 @@ A hands-on enterprise-style security environment built for **security monitoring
 
 | Skill | Associated Project |
 |---|---|
-| SIEM Implementation & Log Analysis | [Enterprise SOC Lab](https://github.com/CyberAmal/enterprise-soc-security-lab) |
+| SIEM Monitoring & Log Analysis | [Enterprise SOC Lab](https://github.com/CyberAmal/enterprise-soc-security-lab) |
 | Security Event Correlation | [Enterprise SOC Lab](https://github.com/CyberAmal/enterprise-soc-security-lab) |
 | Incident Investigation & Alert Triage | [Enterprise SOC Lab](https://github.com/CyberAmal/enterprise-soc-security-lab) |
 | Network Traffic Analysis | [Enterprise SOC Lab](https://github.com/CyberAmal/enterprise-soc-security-lab) |
 | IDS/IPS Monitoring & Validation | [Enterprise SOC Lab](https://github.com/CyberAmal/enterprise-soc-security-lab) |
 | Firewall & VLAN Security | [Enterprise SOC Lab](https://github.com/CyberAmal/enterprise-soc-security-lab) |
-| Detection Engineering | [Enterprise SOC Lab](https://github.com/CyberAmal/enterprise-soc-security-lab) |
+| Network Security Monitoring | [Enterprise SOC Lab](https://github.com/CyberAmal/enterprise-soc-security-lab) |
 | MITRE ATT&CK Mapping | [Enterprise SOC Lab](https://github.com/CyberAmal/enterprise-soc-security-lab) |
 
 ---
@@ -81,8 +83,7 @@ A hands-on enterprise-style security environment built for **security monitoring
 
 ### Detection & Analysis
 
-![Sigma](https://img.shields.io/badge/Sigma-Detection%20Rules-222222?style=for-the-badge)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-Detection%20Mapping-C8102E?style=for-the-badge)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-Analysis%20%26%20Mapping-C8102E?style=for-the-badge)
 
 ### Systems & Infrastructure
 
@@ -126,22 +127,27 @@ A hands-on enterprise-style security environment built for **security monitoring
 
 ## Projects
 
-### Enterprise SOC & Network Security Lab
-**Status:** Active / Documentation in Progress
+### 01 — Enterprise SOC & Network Security Lab
 
-Enterprise-style SOC lab covering SIEM, IDS/IPS, network segmentation, security monitoring, detection engineering, and incident investigation.
+**Status: Completed ✅**
+
+Designed and built an enterprise-style SOC and network-security environment integrating **Splunk, Wazuh, Zeek, Suricata, pfSense, Proxmox, VLAN segmentation, port mirroring, and secure remote access**.
+
+Validated security controls through five documented SOC investigations covering phishing, SSH brute force, network reconnaissance, cross-VLAN access control, and Suricata IDS/IPS prevention.
 
 **[View Project](https://github.com/CyberAmal/enterprise-soc-security-lab)**
 
-### Microsoft Sentinel SOC
-**Status:** Planned
+### 02 — Microsoft Sentinel SOC
 
-Cloud-focused SOC project covering Microsoft Sentinel, KQL, analytics rules, incident investigation, and Azure security monitoring.
+**Status: Planned**
 
-### Azure Cloud Security
-**Status:** Planned
+Cloud-focused SOC project covering **Microsoft Sentinel, KQL, analytics rules, incident investigation, and Azure security monitoring**.
 
-Cloud-security engineering project focused on identity, network security, monitoring, hardening, and defensive controls.
+### 03 — Azure Cloud Security
+
+**Status: Planned**
+
+Cloud-security engineering project focused on **identity, network security, monitoring, hardening, and defensive controls**.
 
 ---
 
