@@ -109,13 +109,13 @@ A hands-on enterprise-style security environment built for **security monitoring
 
 **CompTIA A+**
 
-**Microsoft MTA — Introduction to Programming Using Python**
+**Microsoft MTA - Introduction to Programming Using Python**
 
 ---
 
 ## Hands-On Training
 
-### TryHackMe — SOC Level 1
+### TryHackMe - SOC Level 1
 
 - Completed **40+ hands-on SOC labs**
 - Investigated **15 simulated security incidents**
@@ -127,7 +127,7 @@ A hands-on enterprise-style security environment built for **security monitoring
 
 ## Projects
 
-### 01 — Enterprise SOC & Network Security Lab
+### 01 - Enterprise SOC & Network Security Lab
 
 **Status: Completed**
 
@@ -137,13 +137,13 @@ Validated security controls through five documented SOC investigations covering 
 
 **[View Project](https://github.com/CyberAmal/enterprise-soc-security-lab)**
 
-### 02 — Microsoft Sentinel SOC
+### 02 - Microsoft Sentinel SOC
 
 **Status: Planned**
 
 Cloud-focused SOC project covering **Microsoft Sentinel, KQL, analytics rules, incident investigation, and Azure security monitoring**.
 
-### 03 — Azure Cloud Security
+### 03 - Azure Cloud Security
 
 **Status: Planned**
 
