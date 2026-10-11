@@ -1,26 +1,32 @@
+
 # Hello, I'm Amal
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Amal%20Varghese-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amalbuilds/)
+[![GitHub](https://img.shields.io/badge/GitHub-CyberAmal-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CyberAmal)
 
-Cyber Security MSc graduate focused on **SOC operations, threat detection, incident investigation, network security, and security engineering**.
+MSc Cyber Security graduate focused on **SOC Operations, Threat Detection, Incident Investigation, Cloud Security, Network Security, and Security Engineering**.
 
-I build hands-on cybersecurity projects to develop practical experience with **SIEM, IDS/IPS, network security monitoring, security-event correlation, incident investigation, and defensive security controls**.
+I build hands-on cybersecurity labs to develop practical experience with **SIEM, detection engineering, KQL, IDS/IPS, network traffic analysis, security-event correlation, and defensive security controls**.
 
----
-
-## Objective
-
-My goal is to build a career across **SOC, Cyber Security Analysis, and Security Engineering**, using practical projects to strengthen my ability to detect, investigate, and respond to security threats.
-
-My current work focuses on building realistic security environments, generating controlled security events, analyzing telemetry, validating defensive controls, and documenting investigations using structured SOC workflows.
+My portfolio includes both **on-premises enterprise SOC infrastructure** and **Microsoft Azure cloud SIEM monitoring**, with ten completed security investigations across two projects.
 
 ---
 
-## Featured Project
+## Career Objective
 
-### Enterprise SOC & Network Security Lab
+My goal is to build a career in **SOC Analysis, Cyber Security Analysis, and Security Engineering**, with a long-term interest in cloud security.
 
-A hands-on enterprise-style security environment built for **security monitoring, threat detection, incident investigation, network segmentation, and security-control validation**.
+I focus on designing security environments, generating controlled attack simulations, analysing telemetry, developing detections, investigating incidents, and validating defensive controls.
+
+---
+
+## Featured Projects
+
+### 01 — Enterprise SOC & Network Security Lab
+
+**Status: Completed**
+
+An enterprise-style SOC and network security environment designed for **security monitoring, threat detection, incident investigation, network segmentation, and defensive security validation**.
 
 **Technologies**
 
@@ -29,50 +35,137 @@ A hands-on enterprise-style security environment built for **security monitoring
 **Implemented**
 
 - pfSense firewall and inter-VLAN security policies
-- Network segmentation using VLANs
-- Dedicated network IDS sensor
-- SPAN/port-mirrored network monitoring
+- VLAN-based network segmentation
+- Dedicated network IDS sensor with SPAN/port mirroring
 - Zeek network security monitoring
-- Suricata IDS/IPS
-- Custom Suricata detection-rule validation
-- Splunk SIEM
-- Wazuh host/security monitoring
-- Wazuh → Splunk alert integration
-- Centralized SOC monitoring dashboards
-- Secure remote access with Tailscale
-- Controlled security-event generation
-- Structured SOC investigations
-- Security-control validation
+- Suricata IDS/IPS and custom detection rules
+- Splunk SIEM and Wazuh endpoint monitoring
+- Wazuh-to-Splunk alert integration
+- Centralised SOC monitoring dashboards
+- Secure remote access using Tailscale
+- Controlled security simulations and incident investigations
 
-**SOC Investigations**
+**Completed Investigations**
 
-`Phishing` • `SSH Brute Force` • `Network Reconnaissance` • `Cross-VLAN Access` • `Suricata IDS/IPS Validation`
+| Investigation | Focus |
+|---|---|
+| 01 — Phishing | Phishing analysis and investigation |
+| 02 — SSH Brute Force | Authentication attack detection |
+| 03 — Network Reconnaissance | Network scanning and traffic analysis |
+| 04 — Cross-VLAN Access | Firewall policy and segmentation validation |
+| 05 — Suricata IDS/IPS | Intrusion detection and prevention validation |
 
 **[View Enterprise SOC & Network Security Lab](https://github.com/CyberAmal/enterprise-soc-security-lab)**
 
 ---
 
-## Skills & Projects
+### 02 — Microsoft Sentinel Cloud SOC & Threat Detection Lab
 
-| Skill | Associated Project |
+**Status: Completed — 5 Security Investigations**
+
+A hybrid cloud SOC project integrating a **Proxmox-hosted Windows 11 endpoint with Microsoft Azure** using Azure Arc and Azure Monitor Agent.
+
+Developed custom KQL detection rules, collected Windows security telemetry, and validated automatic alert and incident generation in Microsoft Sentinel.
+
+**Technologies**
+
+`Microsoft Sentinel` `Azure Arc` `Azure Monitor Agent` `Log Analytics` `KQL` `Microsoft Defender` `Windows 11` `Proxmox`
+
+**Implemented**
+
+- Microsoft Sentinel and Azure Log Analytics
+- Azure Arc integration for a non-Azure Windows endpoint
+- Azure Monitor Agent and Data Collection Rules
+- Windows Security, PowerShell, and Defender event collection
+- Custom KQL scheduled analytics rules
+- Windows security event correlation
+- Automatic security alert and incident generation
+- Host entity mapping and incident validation
+- MITRE ATT&CK technique mapping
+
+**Completed Investigations**
+
+| Investigation | Event IDs | MITRE ATT&CK |
+|---|---|---|
+| 01 — Repeated Windows Failed Logons | 4625 | T1110 |
+| 02 — Suspicious PowerShell Activity | 4104 | T1059.001 |
+| 03 — Microsoft Defender Malware Detection | 1116, 1117 | Endpoint Detection |
+| 04 — Account Creation & Privilege Escalation | 4720, 4732 | T1136.001, T1098 |
+| 05 — Scheduled Task Persistence | 4698 | T1053.005 |
+
+**Results:** Five detection scenarios validated, with Microsoft Sentinel incidents generated automatically and the monitored endpoint identified through Host entity mapping.
+
+**[View Microsoft Sentinel Cloud SOC Lab](https://github.com/CyberAmal/microsoft-sentinel-cloud-soc)**
+
+---
+
+## SOC Lab Architecture Overview
+
+```mermaid
+flowchart TB
+    A["Cybersecurity Home Lab"]
+
+    A --> B["Project 01<br/>Enterprise SOC"]
+    A --> C["Project 02<br/>Microsoft Sentinel Cloud SOC"]
+
+    subgraph P1["On-Premises Security Monitoring"]
+        D["Proxmox VE"]
+        E["pfSense / VLANs"]
+        F["Zeek / Suricata"]
+        G["Wazuh / Splunk"]
+        D --> E
+        E --> F
+        F --> G
+    end
+
+    subgraph P2["Azure Cloud Security Monitoring"]
+        H["Windows 11 - Thor"]
+        I["Azure Arc / AMA"]
+        J["Log Analytics"]
+        K["Microsoft Sentinel"]
+        L["KQL Analytics Rules"]
+        M["Security Incidents"]
+        H --> I
+        I --> J
+        J --> K
+        K --> L
+        L --> M
+    end
+
+    B --> D
+    C --> H
+```
+
+*The diagram summarises two separate portfolio projects and their monitoring architectures.*
+
+---
+
+## Technical Skills
+
+| Skill | Hands-On Experience |
 |---|---|
-| SIEM Monitoring & Log Analysis | [Enterprise SOC Lab](https://github.com/CyberAmal/enterprise-soc-security-lab) |
-| Security Event Correlation | [Enterprise SOC Lab](https://github.com/CyberAmal/enterprise-soc-security-lab) |
-| Incident Investigation & Alert Triage | [Enterprise SOC Lab](https://github.com/CyberAmal/enterprise-soc-security-lab) |
-| Network Traffic Analysis | [Enterprise SOC Lab](https://github.com/CyberAmal/enterprise-soc-security-lab) |
-| IDS/IPS Monitoring & Validation | [Enterprise SOC Lab](https://github.com/CyberAmal/enterprise-soc-security-lab) |
-| Firewall & VLAN Security | [Enterprise SOC Lab](https://github.com/CyberAmal/enterprise-soc-security-lab) |
-| Network Security Monitoring | [Enterprise SOC Lab](https://github.com/CyberAmal/enterprise-soc-security-lab) |
-| MITRE ATT&CK Mapping | [Enterprise SOC Lab](https://github.com/CyberAmal/enterprise-soc-security-lab) |
+| SIEM Monitoring | Splunk, Wazuh, Microsoft Sentinel |
+| Detection Engineering | KQL, custom analytics rules, Suricata rules |
+| Incident Investigation | Alert validation, log correlation, incident analysis |
+| Cloud Security Monitoring | Azure Arc, Azure Monitor Agent, Log Analytics |
+| Endpoint Security | Windows Security Events, PowerShell logging, Microsoft Defender |
+| Network Security Monitoring | Zeek, Suricata, Wireshark |
+| Firewall & Network Segmentation | pfSense, VLANs, firewall rules |
+| Virtualisation | Proxmox VE, Windows and Linux VMs |
+| Threat Analysis | MITRE ATT&CK, authentication and persistence detections |
+| Scripting | Python, PowerShell |
 
 ---
 
 ## Tools & Technologies
 
-### SIEM & Security Monitoring
+### SIEM & Cloud Security
 
+![Microsoft Sentinel](https://img.shields.io/badge/Microsoft%20Sentinel-Cloud%20SIEM-0078D4?style=for-the-badge)
+![Microsoft Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=for-the-badge)
+![KQL](https://img.shields.io/badge/KQL-Detection%20Engineering-5C2D91?style=for-the-badge)
 ![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
-![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=for-the-badge&logo=wazuh&logoColor=white)
+![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=for-the-badge)
 
 ### Network Security
 
@@ -83,7 +176,8 @@ A hands-on enterprise-style security environment built for **security monitoring
 
 ### Detection & Analysis
 
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-Analysis%20%26%20Mapping-C8102E?style=for-the-badge)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-Threat%20Analysis-C8102E?style=for-the-badge)
+![Microsoft Defender](https://img.shields.io/badge/Microsoft%20Defender-Endpoint%20Security-0078D4?style=for-the-badge)
 
 ### Systems & Infrastructure
 
@@ -105,64 +199,47 @@ A hands-on enterprise-style security environment built for **security monitoring
 ![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-EA1D25?style=for-the-badge)
 ![CompTIA A+](https://img.shields.io/badge/CompTIA-A%2B-EA1D25?style=for-the-badge)
 
-**CompTIA Security+**
-
-**CompTIA A+**
-
-**Microsoft MTA - Introduction to Programming Using Python**
+- **CompTIA Security+**
+- **CompTIA A+**
+- **Microsoft MTA — Introduction to Programming Using Python**
 
 ---
 
 ## Hands-On Training
 
-### TryHackMe - SOC Level 1
+### TryHackMe — SOC Level 1
 
 - Completed **40+ hands-on SOC labs**
 - Investigated **15 simulated security incidents**
-- Practiced SIEM operations, threat detection, and incident response
+- Practised SIEM operations, threat detection, and incident response
 - Investigated phishing, Windows/Linux security events, and network activity
 - Applied MITRE ATT&CK during security investigations
 
 ---
 
-## Projects
+## Project Roadmap
 
-### 01 - Enterprise SOC & Network Security Lab
-
-**Status: Completed**
-
-Designed and built an enterprise-style SOC and network-security environment integrating **Splunk, Wazuh, Zeek, Suricata, pfSense, Proxmox, VLAN segmentation, port mirroring, and secure remote access**.
-
-Validated security controls through five documented SOC investigations covering phishing, SSH brute force, network reconnaissance, cross-VLAN access control, and Suricata IDS/IPS prevention.
-
-**[View Project](https://github.com/CyberAmal/enterprise-soc-security-lab)**
-
-### 02 - Microsoft Sentinel SOC
-
-**Status: Planned**
-
-Cloud-focused SOC project covering **Microsoft Sentinel, KQL, analytics rules, incident investigation, and Azure security monitoring**.
-
-### 03 - Azure Cloud Security
-
-**Status: Planned**
-
-Cloud-security engineering project focused on **identity, network security, monitoring, hardening, and defensive controls**.
+| Project | Focus | Status |
+|---|---|---|
+| 01 — Enterprise SOC & Network Security Lab | SIEM, IDS/IPS, network security, investigations | Completed |
+| 02 — Microsoft Sentinel Cloud SOC Lab | Azure monitoring, KQL, detection engineering | Completed |
+| 03 — Azure Cloud Security | Identity, network security, monitoring, hardening | Planned |
 
 ---
 
 ## Education
 
 **MSc Cyber Security with Advanced Research**  
-University of Hertfordshire
+University of Hertfordshire, United Kingdom
 
 **BSc Computer Science**  
-University of Calicut
+University of Calicut, India
 
 ---
 
 ## Connect With Me
 
-I'm building my portfolio around practical **SOC, blue-team, network-security, and security-engineering projects**.
+I'm building my career in **SOC Operations, Cyber Security Analysis, and Security Engineering**, supported by practical blue-team and cloud security projects.
 
 [![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amalbuilds/)
+[![GitHub](https://img.shields.io/badge/View%20My%20Projects-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CyberAmal)
