@@ -2,7 +2,6 @@
 # Hello, I'm Amal
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Amal%20Varghese-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amalbuilds/)
-[![GitHub](https://img.shields.io/badge/GitHub-CyberAmal-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CyberAmal)
 
 MSc Cyber Security graduate focused on **SOC Operations, Threat Detection, Incident Investigation, Cloud Security, Network Security, and Security Engineering**.
 
@@ -22,7 +21,7 @@ I focus on designing security environments, generating controlled attack simulat
 
 ## Featured Projects
 
-### 01 — Enterprise SOC & Network Security Lab
+### 01 - Enterprise SOC & Network Security Lab
 
 **Status: Completed**
 
@@ -59,7 +58,7 @@ An enterprise-style SOC and network security environment designed for **security
 
 ---
 
-### 02 — Microsoft Sentinel Cloud SOC & Threat Detection Lab
+### 02 - Microsoft Sentinel Cloud SOC & Threat Detection Lab
 
 **Status: Completed — 5 Security Investigations**
 
@@ -207,7 +206,7 @@ flowchart TB
 
 ## Hands-On Training
 
-### TryHackMe — SOC Level 1
+### TryHackMe - SOC Level 1
 
 - Completed **40+ hands-on SOC labs**
 - Investigated **15 simulated security incidents**
@@ -221,9 +220,9 @@ flowchart TB
 
 | Project | Focus | Status |
 |---|---|---|
-| 01 — Enterprise SOC & Network Security Lab | SIEM, IDS/IPS, network security, investigations | Completed |
-| 02 — Microsoft Sentinel Cloud SOC Lab | Azure monitoring, KQL, detection engineering | Completed |
-| 03 — Azure Cloud Security | Identity, network security, monitoring, hardening | Planned |
+| 01 - Enterprise SOC & Network Security Lab | SIEM, IDS/IPS, network security, investigations | Completed |
+| 02 - Microsoft Sentinel Cloud SOC Lab | Azure monitoring, KQL, detection engineering | Completed |
+| 03 - Azure Cloud Security | Identity, network security, monitoring, hardening | Planned |
 
 ---
 
