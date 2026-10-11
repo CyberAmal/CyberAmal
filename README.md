@@ -200,7 +200,7 @@ flowchart TB
 
 - **CompTIA Security+**
 - **CompTIA A+**
-- **Microsoft MTA — Introduction to Programming Using Python**
+- **Microsoft MTA - Introduction to Programming Using Python**
 
 ---
 
