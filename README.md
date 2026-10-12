@@ -78,8 +78,10 @@ Developed custom KQL detection rules, collected Windows security telemetry, and 
 - Windows Security, PowerShell, and Defender event collection
 - Custom KQL scheduled analytics rules
 - Windows security event correlation
+- SID-based correlation of account creation and privileged group membership events
 - Automatic security alert and incident generation
 - Host entity mapping and incident validation
+- Troubleshooting Windows audit policies, Data Collection Rules, and Sentinel detection issues
 - MITRE ATT&CK technique mapping
 
 **Completed Investigations**
@@ -141,17 +143,16 @@ flowchart TB
 
 ## Technical Skills
 
-| Skill | Hands-On Experience |
+| Category | Technologies & Skills |
 |---|---|
-| SIEM Monitoring | Splunk, Wazuh, Microsoft Sentinel |
-| Detection Engineering | KQL, custom analytics rules, Suricata rules |
-| Incident Investigation | Alert validation, log correlation, incident analysis |
-| Cloud Security Monitoring | Azure Arc, Azure Monitor Agent, Log Analytics |
-| Endpoint Security | Windows Security Events, PowerShell logging, Microsoft Defender |
-| Network Security Monitoring | Zeek, Suricata, Wireshark |
-| Firewall & Network Segmentation | pfSense, VLANs, firewall rules |
-| Virtualisation | Proxmox VE, Windows and Linux VMs |
-| Threat Analysis | MITRE ATT&CK, authentication and persistence detections |
+| SIEM & SOC | Microsoft Sentinel, Splunk, Wazuh |
+| Detection Engineering | KQL, Security Analytics Rules, Event Correlation |
+| Cloud Security | Microsoft Azure, Azure Arc, Azure Monitor, Log Analytics |
+| Endpoint Security | Microsoft Defender, Windows Event Logs, PowerShell Logging |
+| Network Security | pfSense, VLANs, Zeek, Suricata, Wireshark |
+| Incident Response | Alert Triage, Threat Detection, Incident Investigation |
+| Security Frameworks | MITRE ATT&CK |
+| Systems & Virtualisation | Windows, Linux, Proxmox VE |
 | Scripting | Python, PowerShell |
 
 ---
