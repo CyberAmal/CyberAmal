@@ -88,11 +88,11 @@ Developed custom KQL detection rules, collected Windows security telemetry, and 
 
 | Investigation | Event IDs | MITRE ATT&CK |
 |---|---|---|
-| 01 — Repeated Windows Failed Logons | 4625 | T1110 |
-| 02 — Suspicious PowerShell Activity | 4104 | T1059.001 |
-| 03 — Microsoft Defender Malware Detection | 1116, 1117 | Endpoint Detection |
-| 04 — Account Creation & Privilege Escalation | 4720, 4732 | T1136.001, T1098 |
-| 05 — Scheduled Task Persistence | 4698 | T1053.005 |
+| 01 - Repeated Windows Failed Logons | 4625 | T1110 |
+| 02 - Suspicious PowerShell Activity | 4104 | T1059.001 |
+| 03 - Microsoft Defender Malware Detection | 1116, 1117 | Endpoint Detection |
+| 04 - Account Creation & Privilege Escalation | 4720, 4732 | T1136.001, T1098 |
+| 05 - Scheduled Task Persistence | 4698 | T1053.005 |
 
 **Results:** Five detection scenarios validated, with Microsoft Sentinel incidents generated automatically and the monitored endpoint identified through Host entity mapping.
 
